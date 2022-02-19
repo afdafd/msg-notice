@@ -18,11 +18,12 @@
       "guzzlehttp/guzzle": "~7.2.0",
       "overtrue/wechat": "4.3",
       "alibabacloud/client": "^1.5",
-      "alipaysdk/easysdk": "^2.0"
+      "alipaysdk/easysdk": "^2.0",
+      "ext-simplexml": "*"
     },
-  "autoload": {
-    "prst-4": {
-      "Notice": "src/Notice"
+    "autoload": {
+      "psr-4": {
+      "Notice\\": "src/"
     }
   }
 }
