@@ -25,6 +25,6 @@ $dindin->link('报警：我是link', '我是一个测试的link', 'http://www.ba
 //NoticeFactory::sms();
 //NoticeFactory::email();
 ````
--效果如下：
+- 效果如下：
 ![images](dindin.jpeg)
 - 目前暂时接入了钉钉通知，后续会逐步完善其他几个
