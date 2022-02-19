@@ -1,0 +1,28 @@
+{
+    "name": "fengzi/notice",
+    "description": "消息通知",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fengzi",
+            "email": "ffffff_name@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.2",
+      "swoft/task": "~2.0.0",
+      "swoft/redis": "~2.0.0",
+      "swoft/framework": "~2.0.0",
+      "guzzlehttp/guzzle": "~7.2.0",
+      "overtrue/wechat": "4.3",
+      "alibabacloud/client": "^1.5",
+      "alipaysdk/easysdk": "^2.0"
+    },
+  "autoload": {
+    "prst-4": {
+      "Notice": "src/Notice"
+    }
+  }
+}
