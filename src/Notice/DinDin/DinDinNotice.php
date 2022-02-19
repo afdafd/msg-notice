@@ -6,7 +6,7 @@ use EasyWeChat\Kernel\Exceptions\Exception;
 use Notice\Notice\HttpRequest;
 use Notice\Notice\Notice;
 use Notice\Notice\NoticeException;
-use Notice\NoticeHttpRequestException;
+use Notice\Notice\NoticeHttpRequestException;
 
 /**
  * 钉钉通知

@@ -3,9 +3,18 @@
 include "../vendor/autoload.php";
 use Notice\Notice\NoticeFactory;
 
-NoticeFactory::dinDin([
+$dindin = NoticeFactory::dinDin([
   'webHookUrl' => ''
-])->text('报警：一个测试的消息');
+]);
+
+//文本类型
+$dindin->text('报警：一个测试的消息');
+//link 类型
+$dindin->link('报警：我是link', '我是一个测试的link', 'http://www.baidu.com');
+//$dindin->markdown();
+//$dindin->actionCard();
+//$dindin->feedCard();
+
 
 //NoticeFactory::wechat();
 //NoticeFactory::sms();

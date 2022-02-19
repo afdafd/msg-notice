@@ -3,9 +3,8 @@
 
 namespace Notice\Notice;
 
-use EasyWeChat\Kernel\Exceptions\Exception;
 
-class NoticeException extends Exception
+class NoticeException extends \Exception
 {
 
 }
